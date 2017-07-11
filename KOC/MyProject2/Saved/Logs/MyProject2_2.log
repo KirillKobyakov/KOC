@@ -1,0 +1,844 @@
+﻿Log file open, 07/10/17 13:10:08
+LogInit:Display: Running engine for game: MyProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(441200666) SRandInit(441200666).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.060155
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.10-17.10.08:697][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.10-17.10.08:697][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.10-17.10.08:708][  0]LogInit: Computer: IGMOH1380-24
+[2017.07.10-17.10.08:708][  0]LogInit: User: IGMAdmin
+[2017.07.10-17.10.08:708][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.07.10-17.10.08:708][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2017.07.10-17.10.08:708][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.10-17.10.08:708][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.10-17.10.08:708][  0]LogMemory: Process Physical Memory: 263.85 MB used, 263.85 MB peak
+[2017.07.10-17.10.08:709][  0]LogMemory: Process Virtual Memory: 262.39 MB used, 262.39 MB peak
+[2017.07.10-17.10.08:709][  0]LogMemory: Physical Memory: 6115.17 MB used,  10210.64 MB free, 16325.81 MB total
+[2017.07.10-17.10.08:709][  0]LogMemory: Virtual Memory: 674.54 MB used,  10210.64 MB free, 134217728.00 MB total
+[2017.07.10-17.10.08:736][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.07.10-17.10.09:509][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.10-17.10.09:534][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.10-17.10.09:534][  0]LogD3D11RHI:       8145/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.10-17.10.09:535][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.10-17.10.09:535][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.10-17.10.09:535][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.10-17.10.09:539][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.10-17.10.09:539][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.10-17.10.09:539][  0]LogWindows: EnumDisplayDevices:
+[2017.07.10-17.10.09:539][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.10-17.10.09:539][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.07.10-17.10.09:539][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.10-17.10.09:540][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.10-17.10.09:540][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.10-17.10.09:540][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.10-17.10.09:540][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.07.10-17.10.09:540][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.07.10-17.10.09:540][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.10-17.10.09:555][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.10-17.10.09:564][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.10-17.10.09:565][  0]LogShaderCompilers: Guid format shader working directory is 32 characters bigger than the processId version (D:/KOC/MyProject2/Intermediate/Shaders/WorkingDirectory/5488/).
+[2017.07.10-17.10.09:565][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/IGMAdmin/AppData/Local/Temp/UnrealShaderWorkingDir/325922BC4DA2599C3FCA6584D997C617/'.
+[2017.07.10-17.10.09:565][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.10-17.10.10:535][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.10-17.10.10:600][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.10-17.10.10:686][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.10-17.10.10:778][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.10-17.10.10:876][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.10-17.10.10:961][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.10-17.10.11:043][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.10-17.10.11:135][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.10-17.10.11:189][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.10-17.10.11:258][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.10-17.10.11:324][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.10-17.10.11:392][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.10-17.10.11:458][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.10-17.10.11:527][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.10-17.10.11:597][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.10-17.10.11:729][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.10-17.10.11:729][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.10-17.10.11:777][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.10-17.10.11:890][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.10-17.10.11:930][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.10-17.10.11:995][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.10-17.10.12:069][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.10-17.10.12:142][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.10-17.10.12:216][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.10-17.10.12:216][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.10-17.10.12:711][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.10-17.10.12:778][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/IGMAdmin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.07.10-17.10.12:778][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/IGMAdmin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.07.10-17.10.12:778][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/KOC/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.10-17.10.12:778][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.10-17.10.12:778][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/KOC/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.10-17.10.12:778][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.10-17.10.12:804][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.10-17.10.12:817][  0]LogDerivedDataCache: Using Local data cache path C:/Users/IGMAdmin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.10-17.10.13:049][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.10-17.10.13:052][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.10-17.10.13:296][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.10-17.10.13:345][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.10-17.10.13:398][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.10-17.10.13:398][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.10-17.10.13:398][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.10-17.10.13:983][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: myproject2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 178977787
+[2017.07.10-17.10.14:051][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.07.10-17.10.14:105][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025486 seconds
+[2017.07.10-17.10.14:113][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.07.10-17.10.14:113][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.07.10-17.10.14:113][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.10-17.10.14:184][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.10-17.10.15:077][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.10-17.10.15:078][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.10-17.10.15:078][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.10-17.10.15:936][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.10-17.10.15:977][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.10-17.10.16:334][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.10-17.10.16:773][  0]SourceControl: Info Source control is disabled
+[2017.07.10-17.10.16:820][  0]SourceControl: Info Source control is disabled
+[2017.07.10-17.10.16:874][  0]SourceControl: Info Source control is disabled
+[2017.07.10-17.10.16:924][  0]SourceControl: Info Source control is disabled
+[2017.07.10-17.10.18:365][  0]LogEngine: Initializing Engine...
+[2017.07.10-17.10.18:365][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.10-17.10.18:633][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.10-17.10.18:650][  0]LogInit: XAudio2 using 'Alienware2210-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.10-17.10.18:659][  0]LogInit: FAudioDevice initialized.
+[2017.07.10-17.10.18:683][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/IGMAdmin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.07.10-17.10.18:694][  0]LogInit: Texture streaming: Enabled
+[2017.07.10-17.10.18:903][  0]LogInit: Transaction tracking system initialized
+[2017.07.10-17.10.19:315][  0]BlueprintLog: New page: Editor Load
+[2017.07.10-17.10.20:352][  0]LocalizationService: Info Localization service is disabled
+[2017.07.10-17.10.21:104][  0]LogConsoleResponse:Display: 
+[2017.07.10-17.10.21:277][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.10-17.10.21:277][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.10-17.10.21:437][  0]LogFileCache: Scanning file cache for directory 'D:/KOC/MyProject2/Content/' took 0.01s
+[2017.07.10-17.10.22:374][  0]SourceControl: Info Source control is disabled
+[2017.07.10-17.10.22:374][  0]Cmd: MAP LOAD FILE="D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.10-17.10.22:374][  0]LightingResults: New page: Lighting Build
+[2017.07.10-17.10.22:419][  0]MapCheck: New page: Map Check
+[2017.07.10-17.10.22:419][  0]LightingResults: New page: Lighting Build
+[2017.07.10-17.10.23:032][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.10-17.10.23:043][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.10-17.10.23:044][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.10-17.10.23:101][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.684ms to complete.
+[2017.07.10-17.10.23:101][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.727
+[2017.07.10-17.10.23:163][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.10-17.10.23:232][  0]LogCollectionManager: Loaded 0 collections in 0.001539 seconds
+[2017.07.10-17.10.23:306][  0]LogFileCache: Scanning file cache for directory 'D:/KOC/MyProject2/Saved/Collections/' took 0.01s
+[2017.07.10-17.10.23:306][  0]LogFileCache: Scanning file cache for directory 'D:/KOC/MyProject2/Content/Developers/IGMAdmin/Collections/' took 0.01s
+[2017.07.10-17.10.23:306][  0]LogFileCache: Scanning file cache for directory 'D:/KOC/MyProject2/Content/Collections/' took 0.01s
+[2017.07.10-17.10.23:306][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.10-17.10.23:314][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2190 classes and 428 folders.
+[2017.07.10-17.10.23:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.10-17.10.23:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.10-17.10.23:351][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.07.10-17.10.23:405][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.07.10-17.10.23:437][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.07.10-17.10.23:478][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.07.10-17.10.23:518][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.10-17.10.23:524][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.10-17.10.23:592][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.10-17.10.23:592][  0]LogLoad: (Engine Initialization) Total time: 16.22 seconds
+[2017.07.10-17.10.23:592][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.22 seconds
+[2017.07.10-17.10.23:592][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.10-17.10.23:592][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.10-17.10.23:602][  0]LogOcInput: OculusInput pre-init called
+[2017.07.10-17.10.23:617][  0]LogAssetRegistry: Asset discovery search completed in 9.5877 seconds
+[2017.07.10-17.10.23:617][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.10-17.10.23:617][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2017.07.10-17.10.23:619][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.10-17.10.23:755][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.07.10-17.10.25:691][198]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.10-17.10.25:695][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.10-17.10.25:695][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.10-17.10.25:695][198]PIE: New page: PIE session: FirstPersonExampleMap (Jul 10, 2017, 9:10:25 AM)
+[2017.07.10-17.10.25:695][198]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.10-17.10.25:717][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021989s)
+[2017.07.10-17.10.25:718][198]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.10-17.10.25:719][198]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2017.07.10-17.10.25:719][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023643s)
+[2017.07.10-17.10.25:749][198]LogInit: XAudio2 using 'Alienware2210-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.10-17.10.25:754][198]LogInit: FAudioDevice initialized.
+[2017.07.10-17.10.25:798][198]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.10-17.10.25:801][198]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.07.10-13.10.25
+[2017.07.10-17.10.25:801][198]LogWorld: Bringing up level for play took: 0.002393
+[2017.07.10-17.10.25:840][198]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.07.10-17.10.25:841][198]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.101
+[2017.07.10-17.10.25:841][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.10-17.10.49:051][975]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2041.919 Y=-445.382 Z=269.512] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.49:259][  0]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2061.483 Y=-516.387 Z=297.500] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.49:501][ 29]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2062.723 Y=-541.697 Z=298.532] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.55:268][721]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2029.861 Y=83.768 Z=186.860] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.55:443][742]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2055.647 Y=113.034 Z=222.677] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.55:668][769]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1994.635 Y=71.401 Z=320.882] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.55:885][795]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2018.384 Y=90.992 Z=321.565] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.56:093][820]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2008.630 Y=75.276 Z=321.946] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.56:301][845]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2048.525 Y=45.482 Z=259.129] for [FirstPersonProjectile_C]
+[2017.07.10-17.10.56:626][884]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2042.779 Y=124.550 Z=243.813] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.03:385][695]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1452.867 Y=1401.178 Z=175.216] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.03:569][717]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1488.483 Y=1365.989 Z=246.001] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.05:777][982]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1185.451 Y=1758.572 Z=305.864] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.06:803][105]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-910.313 Y=1768.760 Z=293.532] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.06:986][127]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-890.282 Y=1747.538 Z=339.191] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.17:373][373]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1501.417 Y=584.565 Z=399.731] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.18:815][546]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1187.330 Y=393.776 Z=313.803] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.42:245][351]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1213.274 Y=-515.285 Z=295.515] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.42:445][375]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1197.765 Y=-396.061 Z=300.422] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.42:645][399]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1177.822 Y=-322.601 Z=325.100] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.42:828][421]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1124.147 Y=-279.772 Z=378.851] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.43:012][443]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1076.675 Y=-195.843 Z=348.123] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.43:178][463]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1060.280 Y=-149.803 Z=361.428] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.43:345][483]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1046.931 Y=-95.733 Z=327.454] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.43:512][503]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=983.311 Y=-98.948 Z=344.838] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.43:654][520]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=943.590 Y=-32.923 Z=314.584] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.43:837][542]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=869.203 Y=-37.901 Z=330.492] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.44:004][562]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=834.276 Y=-17.302 Z=324.000] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.44:170][582]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=810.960 Y=1.116 Z=318.745] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.44:370][606]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=815.983 Y=26.742 Z=324.623] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.44:546][627]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=816.045 Y=33.526 Z=324.405] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.44:737][650]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=804.356 Y=5.798 Z=321.863] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.44:920][672]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=805.562 Y=8.220 Z=321.628] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.45:129][697]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=855.129 Y=-9.754 Z=315.342] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.52:696][605]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1794.351 Y=1710.804 Z=369.396] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.53:306][678]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1840.209 Y=1711.046 Z=354.458] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.53:514][703]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1871.332 Y=1708.943 Z=236.097] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.53:748][731]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1870.695 Y=1687.068 Z=255.117] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.54:023][764]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1859.320 Y=1700.988 Z=227.124] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.54:231][789]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1805.884 Y=1685.177 Z=261.559] for [FirstPersonProjectile_C]
+[2017.07.10-17.11.54:431][813]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1788.990 Y=1703.897 Z=256.562] for [FirstPersonProjectile_C]
+[2017.07.10-17.12.26:569][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.10-17.12.26:604][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.10-17.12.29:097][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube16)
+[2017.07.10-17.12.53:489][874]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (EditorCube17)
+[2017.07.10-17.12.54:581][  0]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (EditorCube15)
+[2017.07.10-17.13.00:569][706]Cmd: EDIT COPY
+[2017.07.10-17.13.02:849][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.10-17.13.05:641][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.10-17.13.06:217][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2017.07.10-17.13.06:949][433]Cmd: EDIT PASTE
+[2017.07.10-17.13.09:639][750]Cmd: EDIT PASTE
+[2017.07.10-17.13.12:391][ 75]Cmd: EDIT PASTE
+[2017.07.10-17.13.15:282][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.10-17.13.20:730][ 64]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.07.10-17.14.01:330][894]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.10-17.14.01:340][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.10-17.14.01:341][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.10-17.14.01:341][894]PIE: New page: PIE session: FirstPersonExampleMap (Jul 10, 2017, 9:14:01 AM)
+[2017.07.10-17.14.01:341][894]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.10-17.14.01:361][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019912s)
+[2017.07.10-17.14.01:361][894]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.10-17.14.01:361][894]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2017.07.10-17.14.01:362][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020847s)
+[2017.07.10-17.14.01:416][894]LogInit: XAudio2 using 'Alienware2210-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.10-17.14.01:421][894]LogInit: FAudioDevice initialized.
+[2017.07.10-17.14.01:450][894]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.10-17.14.01:453][894]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.07.10-13.14.01
+[2017.07.10-17.14.01:453][894]LogWorld: Bringing up level for play took: 0.002094
+[2017.07.10-17.14.01:454][894]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.484
+[2017.07.10-17.14.01:454][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.10-17.14.19:066][  4]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1889.122 Y=1757.787 Z=315.200] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.21:133][252]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2063.293 Y=1382.607 Z=254.668] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.21:341][277]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2023.918 Y=1395.702 Z=318.679] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.21:749][326]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2007.530 Y=1408.574 Z=363.104] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.29:017][198]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1046.040 Y=-1726.097 Z=414.531] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.29:217][222]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1035.084 Y=-1718.929 Z=406.811] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.29:450][250]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1030.540 Y=-1713.831 Z=331.093] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.29:667][276]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1051.199 Y=-1729.340 Z=340.193] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.29:876][301]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1056.850 Y=-1732.831 Z=330.969] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.30:084][326]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1057.529 Y=-1735.441 Z=466.077] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.34:818][894]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1475.339 Y=-875.902 Z=290.708] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.38:094][287]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1766.752 Y=-1539.881 Z=288.736] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.38:302][312]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1791.015 Y=-1522.849 Z=285.016] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.38:494][335]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1777.158 Y=-1456.000 Z=315.207] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.38:694][359]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1766.225 Y=-1471.024 Z=317.064] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.38:936][388]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1798.898 Y=-1513.177 Z=269.636] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.40:904][624]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1173.784 Y=-1428.720 Z=348.200] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.41:096][647]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1122.076 Y=-1420.123 Z=368.617] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.41:379][681]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1120.334 Y=-1432.377 Z=346.012] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.41:595][707]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1111.812 Y=-1412.391 Z=251.470] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.41:862][739]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1059.792 Y=-1439.306 Z=275.512] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.42:054][762]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1091.300 Y=-1446.510 Z=293.873] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.44:005][996]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1084.850 Y=-1562.537 Z=373.053] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.44:212][ 21]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1102.800 Y=-1639.321 Z=284.856] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.44:388][ 42]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1106.530 Y=-1651.602 Z=241.376] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.54:616][269]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1119.302 Y=-1569.023 Z=309.119] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.54:807][292]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1127.591 Y=-1584.804 Z=354.986] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.55:440][368]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1107.969 Y=-1581.876 Z=283.896] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.55:699][399]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1121.835 Y=-1599.766 Z=268.946] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.55:899][423]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1140.550 Y=-1608.744 Z=242.780] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.56:066][443]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1138.417 Y=-1603.491 Z=329.789] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.56:758][526]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1329.350 Y=-1734.480 Z=284.281] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.56:941][548]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1247.594 Y=-1699.022 Z=277.438] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.57:133][571]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1215.688 Y=-1663.100 Z=274.523] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.57:325][594]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1168.315 Y=-1588.651 Z=317.491] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.57:708][640]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1187.487 Y=-1584.535 Z=344.742] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.57:900][663]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1189.377 Y=-1561.380 Z=330.276] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.58:092][686]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1201.601 Y=-1501.853 Z=247.035] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.58:275][708]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1188.586 Y=-1498.630 Z=252.012] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.58:466][731]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1179.884 Y=-1495.707 Z=260.267] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.58:683][757]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1164.006 Y=-1546.687 Z=321.498] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.58:866][779]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1157.154 Y=-1561.394 Z=323.441] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.59:075][804]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1150.910 Y=-1569.553 Z=323.361] for [FirstPersonProjectile_C]
+[2017.07.10-17.14.59:275][828]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1157.412 Y=-1625.076 Z=298.952] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.02:585][223]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1212.989 Y=-1579.370 Z=365.760] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.02:993][272]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1237.942 Y=-1656.297 Z=307.955] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.03:593][344]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1252.759 Y=-1704.027 Z=283.425] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.05:343][554]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1303.546 Y=-1723.725 Z=296.779] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.06:102][645]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1210.950 Y=-1665.255 Z=270.899] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.06:319][671]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1218.387 Y=-1657.732 Z=252.319] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.08:596][944]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1100.310 Y=-1580.753 Z=383.961] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.08:813][970]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1088.739 Y=-1620.307 Z=372.401] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.09:030][996]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1091.821 Y=-1592.856 Z=366.953] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.09:205][ 17]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1111.004 Y=-1582.842 Z=353.208] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.09:421][ 43]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1099.208 Y=-1531.913 Z=277.272] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.09:613][ 66]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1104.234 Y=-1573.736 Z=316.658] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.09:805][ 89]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1121.019 Y=-1582.061 Z=315.215] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.12:347][394]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1118.863 Y=-1609.719 Z=386.530] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.12:564][420]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1128.378 Y=-1615.777 Z=240.764] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.12:756][443]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1110.412 Y=-1587.839 Z=345.625] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.12:939][465]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1119.727 Y=-1611.360 Z=321.382] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.18:416][122]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1270.126 Y=-1647.075 Z=283.985] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.19:359][235]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1171.069 Y=-1631.725 Z=349.627] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.20:375][357]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1159.607 Y=-1552.948 Z=276.539] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.20:576][381]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1094.612 Y=-1559.624 Z=219.764] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.20:767][404]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1070.329 Y=-1553.255 Z=197.387] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.20:951][426]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1076.378 Y=-1580.535 Z=225.792] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.21:151][450]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1088.327 Y=-1604.477 Z=253.691] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.21:759][523]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1070.862 Y=-1679.272 Z=251.551] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.21:967][548]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1078.121 Y=-1679.861 Z=251.162] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.22:176][573]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1080.313 Y=-1680.911 Z=247.573] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.22:767][644]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1061.579 Y=-1598.623 Z=227.615] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.22:959][667]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1062.871 Y=-1598.920 Z=227.813] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.23:159][691]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1063.126 Y=-1599.977 Z=229.215] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.24:208][817]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=11.57 Y=-21.66 Z=0.00 Location: X=-1161.78 Y=-1681.99 Z=268.36 Normal: X=-0.99 Y=-0.12 Z=0.00 PenetrationDepth:3.243 Actor:EditorCube18_12 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.07.10-17.15.28:244][301]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1014.151 Y=-1524.888 Z=324.497] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.28:428][323]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1014.753 Y=-1521.321 Z=323.108] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.28:603][344]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1012.968 Y=-1522.412 Z=324.975] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.28:794][367]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1016.452 Y=-1526.036 Z=329.702] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.28:986][390]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1016.373 Y=-1528.294 Z=335.113] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.29:203][416]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1017.101 Y=-1529.875 Z=338.164] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.29:353][434]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1015.556 Y=-1527.973 Z=338.858] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.30:562][579]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-19.25 Y=-583.29 Z=0.00 Location: X=-1020.34 Y=-1469.74 Z=266.33 Normal: X=0.73 Y=0.42 Z=-0.54 PenetrationDepth:5.403 Actor:EditorCube18_12 Component:StaticMeshComponent0 BoneName:None (3 other events since notify)
+[2017.07.10-17.15.31:114][645]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1068.472 Y=-1665.387 Z=248.126] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.31:314][669]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1136.785 Y=-1653.945 Z=229.705] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.31:514][693]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1183.636 Y=-1645.936 Z=243.971] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.31:922][742]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1263.525 Y=-1725.654 Z=266.239] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.32:097][763]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1246.980 Y=-1718.375 Z=260.971] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.32:289][786]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1226.417 Y=-1710.117 Z=263.668] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.32:481][809]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1210.668 Y=-1694.555 Z=242.476] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.32:681][833]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1204.474 Y=-1694.448 Z=304.990] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.33:090][882]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1205.495 Y=-1689.947 Z=367.906] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.34:131][  7]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-936.676 Y=-1708.043 Z=265.437] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.34:348][ 33]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-910.295 Y=-1770.528 Z=261.451] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.34:540][ 56]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-991.278 Y=-1824.943 Z=261.238] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.42:358][994]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1188.943 Y=-1536.839 Z=271.844] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.42:575][ 20]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1189.509 Y=-1533.274 Z=237.317] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.42:766][ 43]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1193.215 Y=-1527.242 Z=261.908] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.42:941][ 64]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1128.206 Y=-1519.819 Z=315.779] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.43:125][ 86]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1116.894 Y=-1521.056 Z=320.119] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.43:317][109]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1123.219 Y=-1521.487 Z=315.273] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.43:517][133]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1117.137 Y=-1573.542 Z=247.788] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.43:708][156]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1112.460 Y=-1568.761 Z=236.474] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.43:884][177]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1186.969 Y=-1511.528 Z=255.995] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.44:084][201]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1186.050 Y=-1503.757 Z=261.310] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.44:275][224]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1123.998 Y=-1510.843 Z=317.130] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.44:467][247]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1116.009 Y=-1504.256 Z=315.215] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.44:659][270]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1111.508 Y=-1525.699 Z=315.215] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.44:834][291]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1112.203 Y=-1524.256 Z=315.215] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.45:017][313]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1121.050 Y=-1480.654 Z=315.214] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.48:919][781]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-990.732 Y=-1772.984 Z=294.317] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.49:102][803]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-997.262 Y=-1795.070 Z=319.588] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.49:293][826]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-990.832 Y=-1789.513 Z=313.148] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.49:502][851]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-990.860 Y=-1792.290 Z=279.561] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.49:693][874]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-990.874 Y=-1793.559 Z=221.840] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.49:885][897]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-989.173 Y=-1800.283 Z=221.916] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.50:077][920]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-980.871 Y=-1797.764 Z=233.392] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.50:243][940]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-970.640 Y=-1806.542 Z=237.174] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.50:443][964]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-967.187 Y=-1807.012 Z=244.501] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.50:653][989]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1027.374 Y=-1817.126 Z=315.099] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.51:028][ 34]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1020.026 Y=-1802.148 Z=315.244] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.52:395][198]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1074.044 Y=-1824.894 Z=315.217] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.52:578][220]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1131.618 Y=-1813.883 Z=280.723] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.52:778][244]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1205.295 Y=-1781.751 Z=288.127] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.54:397][438]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1251.042 Y=-1724.639 Z=337.663] for [FirstPersonProjectile_C]
+[2017.07.10-17.15.54:789][485]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1173.961 Y=-1674.812 Z=396.238] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.06:922][939]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1265.661 Y=-277.475 Z=307.218] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.07:122][963]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1266.866 Y=-285.189 Z=323.513] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.07:331][988]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1258.974 Y=-317.814 Z=349.527] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.07:514][ 10]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1249.577 Y=-340.674 Z=376.522] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.07:747][ 38]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1250.586 Y=-336.568 Z=375.517] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.07:931][ 60]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1233.977 Y=-275.903 Z=376.522] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.12:365][592]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1942.313 Y=-1650.637 Z=407.998] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.12:557][615]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1947.810 Y=-1693.179 Z=354.806] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.12:781][642]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=418.26 Y=-290.72 Z=0.00 Location: X=-2102.20 Y=-1775.93 Z=266.62 Normal: X=-0.36 Y=-0.41 Z=-0.84 PenetrationDepth:5.881 Actor:EditorCube20_14 Component:StaticMeshComponent0 BoneName:None (1 other events since notify)
+[2017.07.10-17.16.12:940][661]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1944.028 Y=-1728.078 Z=317.451] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.13:132][684]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1898.360 Y=-1697.412 Z=318.407] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.13:332][708]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1919.066 Y=-1610.103 Z=329.837] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.13:532][732]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1908.895 Y=-1564.610 Z=393.833] for [FirstPersonProjectile_C]
+[2017.07.10-17.16.14:740][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.10-17.16.14:802][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.10-17.16.31:107][781]LogGameProjectGeneration:Verbose: 'C:/Program Files (x86)/Epic Games/4.14/Templates/TP_FlyingBP/Media/TP_FlyingBP.png': Skipping as it is in an ignored folder 'Media'
+[2017.07.10-17.16.31:107][781]LogGameProjectGeneration:Verbose: 'C:/Program Files (x86)/Epic Games/4.14/Templates/TP_FlyingBP/Media/TP_FlyingBP_Preview.png': Skipping as it is in an ignored folder 'Media'
+[2017.07.10-17.16.31:192][782]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.10-17.16.37:876][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.10-17.16.37:977][782]LogSavePackage: Save=77.66ms
+[2017.07.10-17.16.37:977][782]LogSavePackage: Moving 'D:/KOC/MyProject2/Saved/FirstPersonExampleMapD2F2391742BAED01587B20A3B47EB03F.tmp' to 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.16.37:977][782]LogFileManager:Warning: DeleteFile was unable to delete 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap', retrying in .5s...
+[2017.07.10-17.16.38:478][782]LogFileManager:Error: Error deleting file 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'.
+[2017.07.10-17.16.38:478][782]LogSavePackage:Error: Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.16.38:479][782]LogSavePackage:Display: Finished SavePackage D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.10-17.16.38:484][782]EditorErrors: New page: Save Output
+[2017.07.10-17.16.38:484][782]EditorErrors:Warning: Warning Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.16.38:495][782]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.666
+[2017.07.10-17.16.42:809][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.10-17.16.42:906][782]LogSavePackage: Save=79.07ms
+[2017.07.10-17.16.42:906][782]LogSavePackage: Moving 'D:/KOC/MyProject2/Saved/FirstPersonExampleMap5F482F8C4D4ED311DC0F5A8BF2D50C4D.tmp' to 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.16.42:906][782]LogFileManager:Warning: DeleteFile was unable to delete 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap', retrying in .5s...
+[2017.07.10-17.16.43:407][782]LogFileManager:Error: Error deleting file 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'.
+[2017.07.10-17.16.43:407][782]LogSavePackage:Error: Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.16.43:408][782]LogSavePackage:Display: Finished SavePackage D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.10-17.16.43:409][782]EditorErrors: New page: Save Output
+[2017.07.10-17.16.43:410][782]EditorErrors:Warning: Warning Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.16.43:411][782]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.643
+[2017.07.10-17.17.15:804][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.10-17.17.15:899][316]LogSavePackage: Save=77.53ms
+[2017.07.10-17.17.15:899][316]LogSavePackage: Moving 'D:/KOC/MyProject2/Saved/FirstPersonExampleMapBE76101F437922E0B253B0A54F5905FD.tmp' to 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.15:900][316]LogFileManager:Warning: DeleteFile was unable to delete 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap', retrying in .5s...
+[2017.07.10-17.17.16:400][316]LogFileManager:Error: Error deleting file 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'.
+[2017.07.10-17.17.16:400][316]LogSavePackage:Error: Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.16:402][316]LogSavePackage:Display: Finished SavePackage D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.10-17.17.16:403][316]EditorErrors: New page: Save Output
+[2017.07.10-17.17.16:403][316]EditorErrors:Warning: Warning Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.16:414][316]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.652
+[2017.07.10-17.17.18:201][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.10-17.17.18:293][316]LogSavePackage: Save=75.20ms
+[2017.07.10-17.17.18:293][316]LogSavePackage: Moving 'D:/KOC/MyProject2/Saved/FirstPersonExampleMapF579482444A6BCB7F68E1697BDB5FA1A.tmp' to 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.18:294][316]LogFileManager:Warning: DeleteFile was unable to delete 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap', retrying in .5s...
+[2017.07.10-17.17.18:795][316]LogFileManager:Error: Error deleting file 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'.
+[2017.07.10-17.17.18:795][316]LogSavePackage:Error: Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.18:796][316]LogSavePackage:Display: Finished SavePackage D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.10-17.17.18:797][316]EditorErrors: New page: Save Output
+[2017.07.10-17.17.18:797][316]EditorErrors:Warning: Warning Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.18:798][316]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.640
+[2017.07.10-17.17.29:136][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.10-17.17.29:230][164]LogSavePackage: Save=75.96ms
+[2017.07.10-17.17.29:230][164]LogSavePackage: Moving 'D:/KOC/MyProject2/Saved/FirstPersonExampleMap963D3B2346262BD3BE0962A5A7509481.tmp' to 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.29:231][164]LogFileManager:Warning: DeleteFile was unable to delete 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap', retrying in .5s...
+[2017.07.10-17.17.29:732][164]LogFileManager:Error: Error deleting file 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'.
+[2017.07.10-17.17.29:732][164]LogSavePackage:Error: Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.29:733][164]LogSavePackage:Display: Finished SavePackage D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.10-17.17.29:737][164]EditorErrors: New page: Save Output
+[2017.07.10-17.17.29:737][164]EditorErrors:Warning: Warning Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.33:718][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.10-17.17.33:810][636]LogSavePackage: Save=75.32ms
+[2017.07.10-17.17.33:810][636]LogSavePackage: Moving 'D:/KOC/MyProject2/Saved/FirstPersonExampleMap90A26B1743B808CBA993EF9D1D84153D.tmp' to 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.33:810][636]LogFileManager:Warning: DeleteFile was unable to delete 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap', retrying in .5s...
+[2017.07.10-17.17.34:311][636]LogFileManager:Error: Error deleting file 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'.
+[2017.07.10-17.17.34:311][636]LogSavePackage:Error: Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.34:313][636]LogSavePackage:Display: Finished SavePackage D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.10-17.17.34:314][636]EditorErrors: New page: Save Output
+[2017.07.10-17.17.34:314][636]EditorErrors:Warning: Warning Error saving 'D:/KOC/MyProject2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.10-17.17.50:702][558]LogGameProjectGeneration:Verbose: 'C:/Program Files (x86)/Epic Games/4.14/Templates/TP_FlyingBP/Media/TP_FlyingBP.png': Skipping as it is in an ignored folder 'Media'
+[2017.07.10-17.17.50:702][558]LogGameProjectGeneration:Verbose: 'C:/Program Files (x86)/Epic Games/4.14/Templates/TP_FlyingBP/Media/TP_FlyingBP_Preview.png': Skipping as it is in an ignored folder 'Media'
+[2017.07.10-17.17.50:771][559]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.07.10-17.18.02:076][560]Cmd: QUIT_EDITOR
+[2017.07.10-17.18.02:181][560]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.10-17.18.02:208][560]LogExit: Preparing to exit.
+[2017.07.10-17.18.03:294][560]LogExit: Editor shut down
+[2017.07.10-17.18.03:294][560]LogExit: Transaction tracking system shut down
+[2017.07.10-17.18.03:364][560]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.10-17.18.03:364][560]LogExit: Object subsystem successfully closed.
+[2017.07.10-17.18.03:388][560]LogD3D11RHI: Shutdown
+[2017.07.10-17.18.03:388][560]LogD3D11RHI: CleanupD3DDevice
+[2017.07.10-17.18.03:521][560]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.10-17.18.03:546][560]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.10-17.18.03:546][560]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF692A9CB-4BE7-C225-C378-F9B755A80BDE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=822a24ed4865cb29cef75ea46c8807bb%7Cca90ae5a1e854e55bcc446bb84f5659c%7Ca59d3b82-35a8-4791-a9a2-916a193a2c3c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.10-17.18.03:557][560]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2017.07.10-17.18.03:557][560]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.07.10-17.18.03:557][560]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.07.10-17.18.03:557][560]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.07.10-17.18.03:557][560]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.07.10-17.18.03:557][560]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.07.10-17.18.03:557][560]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.07.10-17.18.03:558][560]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.07.10-17.18.03:558][560]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.07.10-17.18.03:558][560]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.07.10-17.18.03:558][560]LogDirectoryWatcher: A directory notification for 'D:/KOC/MyProject2/Content/Collections/' was aborted.
+[2017.07.10-17.18.03:558][560]LogDirectoryWatcher: A directory notification for 'D:/KOC/MyProject2/Content/Developers/IGMAdmin/Collections/' was aborted.
+[2017.07.10-17.18.03:558][560]LogDirectoryWatcher: A directory notification for 'D:/KOC/MyProject2/Saved/Collections/' was aborted.
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.07.10-17.18.03:559][560]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.07.10-17.18.04:012][560]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.07.10-17.18.04:013][560]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.07.10-17.18.04:067][560]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.07.10-17.18.04:068][560]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.07.10-17.18.04:270][560]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.07.10-17.18.04:271][560]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.07.10-17.18.04:272][560]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.07.10-17.18.04:272][560]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.07.10-17.18.04:272][560]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.07.10-17.18.04:273][560]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.07.10-17.18.04:273][560]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.07.10-17.18.04:373][560]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.07.10-17.18.04:474][560]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.07.10-17.18.04:477][560]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.07.10-17.18.04:477][560]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.07.10-17.18.04:477][560]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.07.10-17.18.04:477][560]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.07.10-17.18.04:477][560]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.07.10-17.18.04:477][560]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.07.10-17.18.04:477][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.10-17.18.04:477][560]LogDirectoryWatcher: A directory notification for 'D:/KOC/MyProject2/Content/' was aborted.
+[2017.07.10-17.18.04:477][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.10-17.18.04:478][560]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.07.10-17.18.04:658][560]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.07.10-17.18.04:658][560]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.07.10-17.18.04:658][560]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.07.10-17.18.04:658][560]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.07.10-17.18.04:658][560]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.07.10-17.18.04:658][560]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.07.10-17.18.04:658][560]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.07.10-17.18.04:658][560]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.07.10-17.18.04:715][560]LogDerivedDataCache: Shutdown
+[2017.07.10-17.18.04:715][560]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.07.10-17.18.04:715][560]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.07.10-17.18.04:715][560]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.07.10-17.18.04:715][560]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.07.10-17.18.04:715][560]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.07.10-17.18.04:715][560]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.07.10-17.18.04:715][560]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.07.10-17.18.04:715][560]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.07.10-17.18.04:717][560]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.10-17.18.04:717][560]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.07.10-17.18.04:720][560]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.07.10-17.18.04:720][560]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.07.10-17.18.04:721][560]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.07.10-17.18.04:721][560]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.07.10-17.18.04:721][560]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.07.10-17.18.04:721][560]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.07.10-17.18.04:722][560]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.07.10-17.18.04:723][560]LogExit: Exiting.
+[2017.07.10-17.18.04:735][560]Log file closed, 07/10/17 13:18:04
